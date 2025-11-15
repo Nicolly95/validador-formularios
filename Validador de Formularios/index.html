@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">        
+        <div class="left">
+            <img src="imagens/istockphoto-1257231105-612x612.jpg" alt="">
+        </div>
+        <div class="right">
+            <div class="right--area">
+                <h1>Criar conta</h1>
+
+                <form method="POST" action="cadastro.php" class="validator">
+                    <label>
+                        Nome: <br/>
+                        <input type="text" name="name" data-rules="required|min=2">
+                        <div class="div-fantasma">
+
+                        </div>
+                    </label>
+                    <label>
+                        E-mail: <br/>
+                        <input type="text" name="name" data-rules="required|email">
+                        <div class="div-fantasma">
+
+                        </div>
+                    </label>
+                    <label>
+                        Senha: <br/>
+                        <input type="password" name="password" data-rules="required|min=6">
+                        <div class="div-fantasma">
+
+                        </div>
+                    </label>
+                    <label class="button--area">
+                        <input type="submit" value="CADASTRAR" class="button">
+                    </label>
+
+                </form>
+
+                <div class="login">
+                    Já tem uma conta? <br/> <a href="">Faça seu login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form method="POST" action="cadastro.php" class="validator">
+    <label>
+        Nome: <br/>
+        <input type="text" name="name" data-rules="required|min=2">
+    </label>
+    <label>
+        E-mail: <br/>
+        <input type="text" name="name" data-rules="required">
+    </label>
+    <label>
+        Senha: <br/>
+        <input type="password" name="password" data-rules="required">
+    </label>
+    <label class="button--area">
+        <input type="submit" value="CADASTRAR" class="button">
+    </label>
+
+</form> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

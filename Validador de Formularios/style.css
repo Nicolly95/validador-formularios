@@ -1,0 +1,140 @@
+
+body {
+    margin: 0px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;       
+}
+.screen{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.right{
+    width: 415px;    
+    border-left: 1px solid #ccc;
+    background-color: #dce0e6;
+    box-sizing: border-box;
+}
+.right--area{
+    height: 100vh;
+    margin: auto auto auto 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 40%;
+    height: 65vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    margin: 15px auto;
+    font-size: 18px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 95px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.button--area {
+    margin-top: 50px
+}
+.button {
+    width: 200px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #eee, #749fcc);
+    border: 1px solid #d2e5ff;
+    box-shadow: 1px 1px 3px #777;
+    height: 32px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.button:hover {
+    background: linear-gradient(to bottom, #eee, #6c8bac);
+    border: 1px solid #d2e5ff;
+    color: #111;
+    transform: all ease 0.8s;
+}
+.error{
+    color: rgb(10, 96, 177);
+    background-color: #ccc;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+}
+span{
+    color: rgb(177, 10, 10);
+}
+.div-fantasma{
+    display: block;
+    height: 24px;
+    background-color: #dce0e6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
